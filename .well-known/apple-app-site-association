@@ -1,0 +1,26 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "55N7X7294C.org.infinitearms.genedoe",
+            "paths": ["*"]
+            },
+            {
+            "appID": "55N7X7294C.org.infinitearms.genedoe",
+            "paths": ["/*"]
+        }]
+    }
+}
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "55N7X7294C.org.infinitearms.genedoe",
+            "paths": ["*"]
+            },
+            {
+            "appID": "55N7X7294C.org.infinitearms.genedoe",
+            "paths": ["/*"]
+        }]
+    }
+}
