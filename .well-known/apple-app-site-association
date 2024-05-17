@@ -3,7 +3,12 @@
       "details": [
            {
              "appIDs": ["55N7X7294C.org.infinitearms.genedoe"],
-             "paths":["*"]
+             "components" : [
+                {
+                  "/": "/*",
+                  "comment":"Matches any URL whose path starts with a /"
+                }
+            ]
            }
        ]
    },
