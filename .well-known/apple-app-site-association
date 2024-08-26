@@ -1,26 +1,19 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [{
-            "appID": "55N7X7294C.org.infinitearms.genedoe",
-            "paths": ["*"]
-            },
-            {
-            "appID": "55N7X7294C.org.infinitearms.genedoe",
-            "paths": ["/*"]
-        }]
-    }
-}
-{
-    "applinks": {
-        "apps": [],
-        "details": [{
-            "appID": "55N7X7294C.org.infinitearms.genedoe",
-            "paths": ["*"]
-            },
-            {
-            "appID": "55N7X7294C.org.infinitearms.genedoe",
-            "paths": ["/*"]
-        }]
+  "applinks": {
+      "details": [
+           {
+             "appIDs": ["55N7X7294C.org.infinitearms.genedoe"],
+             "components" : [
+                {
+                  "/": "/*",
+                  "comment":"Matches any URL whose path starts with a /"
+                }
+            ]
+           }
+       ]
+   },
+
+    "appclips": {
+        "apps": ["55N7X7294C.org.infinitearms.genedoe.Clip"]
     }
 }
